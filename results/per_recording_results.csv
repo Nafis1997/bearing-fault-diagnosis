@@ -1,0 +1,10 @@
+recording,label,majority_prediction,window_accuracy,windows
+108.mat,inner_race,inner_race,1.0,60
+121.mat,ball,ball,1.0,59
+133.mat,outer_race,outer_race,1.0,59
+172.mat,inner_race,inner_race,1.0,59
+188.mat,ball,ball,1.0,59
+200.mat,outer_race,outer_race,1.0,59
+212.mat,inner_race,inner_race,1.0,59
+225.mat,ball,ball,1.0,59
+237.mat,outer_race,outer_race,1.0,59

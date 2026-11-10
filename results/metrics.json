@@ -1,0 +1,67 @@
+{
+  "validation": {
+    "majority_baseline": {
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666
+    },
+    "svm_rbf": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "random_forest": {
+      "accuracy": 0.9905838041431262,
+      "balanced_accuracy": 0.9905838041431262,
+      "macro_f1": 0.99060466533596
+    }
+  },
+  "selected_model": "svm_rbf",
+  "test": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "seed": 42,
+  "window_samples": 2048,
+  "sample_rate_hz": 12000,
+  "overlap_samples": 0,
+  "feature_names": [
+    "rms",
+    "std",
+    "peak_to_peak",
+    "skewness",
+    "kurtosis_pearson",
+    "crest_factor",
+    "shape_factor",
+    "spectral_centroid_hz",
+    "power_fraction_0_1000",
+    "power_fraction_1000_2000",
+    "power_fraction_2000_3000",
+    "power_fraction_3000_4000",
+    "power_fraction_4000_6000"
+  ],
+  "classes": [
+    "ball",
+    "inner_race",
+    "outer_race"
+  ],
+  "split": "train loads 0/1 hp; validation 2 hp; final refit 0/1/2 hp; test 3 hp",
+  "window_counts": {
+    "test": 532,
+    "train": 1062,
+    "validation": 531
+  },
+  "recording_counts": {
+    "test": 9,
+    "train": 18,
+    "validation": 9
+  },
+  "versions": {
+    "python": "3.11.6",
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.7.2"
+  }
+}

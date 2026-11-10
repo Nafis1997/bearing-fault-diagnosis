@@ -1,0 +1,7 @@
+,precision,recall,f1-score,support
+ball,1.0,1.0,1.0,177.0
+inner_race,1.0,1.0,1.0,178.0
+outer_race,1.0,1.0,1.0,177.0
+accuracy,1.0,1.0,1.0,1.0
+macro avg,1.0,1.0,1.0,532.0
+weighted avg,1.0,1.0,1.0,532.0
