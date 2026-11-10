@@ -38,7 +38,6 @@ python main.py
 ```
 
 Installation can be skipped if the dependencies are already available.
-[START_HERE.md](START_HERE.md) explains the VS Code steps using the JKU environment.
 `requirements-tested.txt` records the package versions used for the included results.
 
 ## Signal processing and classification
